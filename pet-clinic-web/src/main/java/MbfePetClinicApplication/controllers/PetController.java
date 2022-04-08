@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Collection;
 
 @Controller
-@RequestMapping()
+//because we have ownerId here, in owner's @modelAttribute we can get ownerId with @Pathvariable
+@RequestMapping("/owners/{ownerId}")
 public class PetController {
     private final PetService petService;
     private final OwnerService ownerService;
