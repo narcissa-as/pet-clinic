@@ -1,65 +1,67 @@
-Spring Pet Clinic – Java / Spring Boot Project
-Project Summary
+# Spring Pet Clinic – Java / Spring Boot Project
 
-This project is a Spring Boot application that simulates a simple pet clinic management system.
-It demonstrates the use of Java, Spring Boot, Spring Data JPA, Hibernate, REST, Thymeleaf, and other related technologies for building a backend application with clean architecture.
+## Overview
 
-Features
+The **Spring Pet Clinic** project is a backend application built with **Java** and **Spring Boot**.
+It simulates a simple pet clinic management system, demonstrating best practices for **Spring-based backend development**, including data persistence, RESTful APIs, and basic frontend integration using **Thymeleaf**.
 
-CRUD operations for owners, pets, and visits
+## Key Features
 
-RESTful API endpoints for data access
+- **CRUD operations** for owners, pets, and visits
+- **RESTful API endpoints** for programmatic access
+- **Database integration** using Spring Data JPA and Hibernate
+- **Input validation** to ensure data integrity
+- **Thymeleaf templates** for simple user interface
+- **Unit and integration tests** to verify functionality
 
-Integration with a relational database using Spring Data JPA and Hibernate
+## Technologies & Tools
 
-Validation of user input
+- **Java 17**
+- **Spring Boot**
+- **Spring MVC**
+- **Spring Data JPA / Hibernate**
+- **RESTful Web Services**
+- **Thymeleaf**
+- **Lombok**
+- **JUnit / Mockito**
+- **Maven** for build and dependency management
 
-Thymeleaf templates for basic UI interactions
+## Project Structure
 
-Unit and integration testing for core functionalities
+```
+src/main/java      → Java source code
+src/main/resources → Configuration files, templates, static resources
+src/test/java      → Unit and integration tests
+```
 
-Technologies Used
+## Setup & Running the Application
 
-Java 17
+### 1. Clone the Repository
 
-Spring Boot
-
-Spring MVC
-
-Spring Data JPA / Hibernate
-
-RESTful Web Services
-
-Thymeleaf
-
-Lombok
-
-JUnit / Mockito
-
-Project Structure
-
-src/main/java – Java source code
-
-src/main/resources – Configuration files, templates, and static resources
-
-src/test/java – Unit and integration tests
-
-Getting Started
-
-Clone the repository:
+```
 git clone <repository-url>
+```
 
-Build the project using Maven:
+### 2. Build the Project
+
+```
 mvn clean install
+```
 
-Run the application:
+### 3. Run the Application
+
+```
 mvn spring-boot:run
+```
 
-Access the application in your browser:
+### 4. Access in Browser
+
+```
 http://localhost:8080
+```
 
-Notes
+## Notes
 
-The project is focused on backend learning and demonstration of Java/Spring best practices.
-
-Thymeleaf templates provide a simple front-end interface for basic interactions.
+- This project emphasizes **backend development** and demonstrates core **Java/Spring best practices**.
+- Thymeleaf templates provide a **simple frontend interface** for interacting with the application.
+- All paths, endpoints, and testing instructions are organized for easy exploration.
